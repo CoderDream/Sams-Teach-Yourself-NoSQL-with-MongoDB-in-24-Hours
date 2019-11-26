@@ -1,0 +1,9 @@
+{
+	"name": "@cmf/NoSQL-with-MongoDB",
+	"version": "1.0.0",
+	"dependencies": {
+		
+	},
+	"author": "XuLin",
+	"description": "MongoDB入门经典"
+}
