@@ -1,7 +1,14 @@
-print("Hostname:");
-print("\t"+hostname());
-print("Date:");
-print("\t"+Date());
+const MongoClient = require('mongodb').MongoClient;
+newDB = MongoClient.getDB("newDB");
+newDB.createCollection("newCollection");
+
+
+console.log("Hostname:");
+console.log("\t"+hostname());
+console.log("Date:");
+console.log("\t"+Date());
 db = connect("localhost/admin");
-print("Admin Collections:");
-printjson(db.getCollectionNames());
+console.log("Admin Collections:");
+const names = db.getCollectionNames();
+console.log(names);
+// console.logjson(db.getCollectionNames());

@@ -2,7 +2,11 @@
 	"name": "@cmf/NoSQL-with-MongoDB",
 	"version": "1.0.0",
 	"dependencies": {
-		
+		"request": "^2.88.0",
+		"chai": "^4.2.0",
+		"mocha": "^6.2.2",
+		"mochawesome": "^4.1.0",
+		"mongodb": "^3.3.3"
 	},
 	"author": "XuLin",
 	"description": "MongoDB入门经典"
